@@ -1,0 +1,40 @@
+{
+  "name": "fileplay-server",
+  "version": "1.0.0",
+  "description": "Backend server for FilePlay - handles large file processing",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "better-sqlite3": "^12.5.0",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.2.0",
+    "decompress": "^4.2.1",
+    "express": "^4.18.2",
+    "fast-csv": "^5.0.5",
+    "ffmpeg-static": "^5.3.0",
+    "file-type": "^21.2.0",
+    "fluent-ffmpeg": "^2.1.3",
+    "ical.js": "^2.2.1",
+    "mailparser": "^3.9.1",
+    "mammoth": "^1.11.0",
+    "mime-types": "^3.0.2",
+    "multer": "^1.4.5-lts.1",
+    "node-7z-archive": "^1.1.7",
+    "node-cache": "^5.1.2",
+    "p-queue": "^9.0.1",
+    "pdf-parse": "^2.4.5",
+    "sharp": "^0.34.5",
+    "unzipper": "^0.12.3",
+    "vcard-parser": "^1.0.0",
+    "xlsx": "^0.18.5",
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

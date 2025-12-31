@@ -1,0 +1,33 @@
+==============================================
+  QUICK GITHUB PUSH COMMANDS
+==============================================
+
+After creating your repository on GitHub, run these commands:
+
+1. Add GitHub as remote (replace YOUR-REPO-URL):
+   git remote add origin https://github.com/zeeza18/fileplay.git
+
+2. Rename branch to main:
+   git branch -M main
+
+3. Push to GitHub:
+   git push -u origin main
+
+==============================================
+
+ALTERNATIVE: If you want to use a different repository name,
+replace 'fileplay' with your chosen name:
+
+git remote add origin https://github.com/zeeza18/YOUR-REPO-NAME.git
+git branch -M main
+git push -u origin main
+
+==============================================
+
+Your git is configured as:
+- Name: zeeza18
+- Email: mdazeezulla2001@gmail.com
+
+==============================================
+
+For detailed instructions, see GITHUB_SETUP.md
